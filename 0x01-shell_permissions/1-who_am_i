@@ -1,2 +1,9 @@
 #!/bin/bash
-echo "the effective user name of the current user is : $username"
+
+Get the effective username of the current user
+
+username=$(whoami)
+
+Print the effective username
+
+echo "The effective username of the current user is: $username"
